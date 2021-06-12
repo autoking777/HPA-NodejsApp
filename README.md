@@ -15,7 +15,7 @@
     yum install docker -y
     service docker start
 # Clone code from github:
-    git clone https://github.com/cloudtechmasters/HPA-NodejsApp.git
+    git clone https://github.com/chinnareddaiah/HPA-NodejsApp.git
     cd HPA-NodejsApp
 # Build Maven Artifact:
     npm install
@@ -24,7 +24,7 @@
 # Docker login
     docker login
 # Push docker image to dockerhub
-    docker push cloudtechmasters/nodejs-hpa-k8s:v1:v1
+    docker push chinnareddaiah/nodejs-hpa-k8s:v1
 # Deploy nodejs Application using below commands:
     kubectl apply -f deployment.yml
     kubectl apply -f service.yml
