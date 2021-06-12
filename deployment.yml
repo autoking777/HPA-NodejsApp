@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodejs-deployment
-        image: cloudtechmasters/nodejs-k8s:v1
+        image: chinnareddaiah/nodejs-hpa-k8s:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
